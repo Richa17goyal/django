@@ -1,0 +1,11 @@
+body
+{
+    background-color: hwb(223 9% 76%);
+    color: hsl(0, 100%, 98%);
+}
+
+h1
+{
+   text-align: center;
+   font-size: 6em;
+}
