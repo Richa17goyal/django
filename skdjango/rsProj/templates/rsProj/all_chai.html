@@ -6,8 +6,8 @@ chai page
 
 {% block content %}
 <h1>All chai for you</h1>
-<div class="grid grid-cols-3 gap-2 m-7">
 
+<div class="grid grid-cols-3 gap-2 m-7">
 {% for chai in chais %}
     <div class="chai-item">
         <img class="rounded" src="{{chai.image.url}}" alt="">
